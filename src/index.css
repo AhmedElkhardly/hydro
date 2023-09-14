@@ -1,3 +1,66 @@
+@font-face {
+  font-family: PlusJakarta-ExtraBold;
+  src: url(./assets/fonts/PlusJakartaSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: PlusJakarta-Bold;
+  src: url(./assets/fonts/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: PlusJakarta-Medium;
+  src: url(./assets/fonts/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: PlusJakarta-Light;
+  src: url(./assets/fonts/PlusJakartaSans-Light.ttf);
+}
+
+@font-face {
+  font-family: PlusJakarta-Regular;
+  src: url(./assets/fonts/PlusJakartaSans-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: Mulish-Bold;
+  src: url(./assets/fonts/Mulish-Bold.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Medium;
+  src: url(./assets/fonts/Mulish-Medium.ttf);
+}
+
+
+@font-face {
+  font-family: Mulish-ExtraLight;
+  src: url(./assets/fonts/Mulish-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Regular;
+  src: url(./assets/fonts/Mulish-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
+  font-family: PlusJakarta-Regular;
+}
+
+a {
+  color: #fff !important;
+}
+
+a:hover {
+  color: rgb(237, 237, 237) !important;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +73,190 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.PageWrapper {
+  padding-left: 129px;
+  padding-right: 129px;
+}
+
+.containerWrapper {
+  margin-inline-start: 129px;
+}
+.SectionWrapper {
+  padding-left: 315px;
+  padding-right: 315px;
+}
+.SectionWrapperm {
+  margin-left: 315px !important;
+  margin-right: 315px !important;
+}
+@media screen and (min-width: 1540px) {
+  .PageWrapper {
+    padding-left: 129px;
+    padding-right: 129px;
+  }
+  
+  .containerWrapper {
+    margin-inline-start: 129px;
+  }
+  .SectionWrapper {
+    padding-left: 315px;
+    padding-right: 315px;
+  }
+  .SectionWrapperm {
+    margin-left: 315px !important;
+    margin-right: 315px !important;
+  }
+  
+}
+@media screen and (max-width: 1540px) {
+  .PageWrapper {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  
+  .containerWrapper {
+    margin-inline-start: 90px;
+  }
+  .SectionWrapper {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .SectionWrapperm {
+    margin-left: 150px !important;
+    margin-right: 150px !important;
+  }
+  
+}
+
+@media screen and (min-width: 960px) and (max-width: 1140px) {
+  .PageWrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .containerWrapper {
+    margin-inline-start: 80px;
+  }
+  
+  .SectionWrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .SectionWrapperm {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 960px) {
+  .PageWrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .containerWrapper {
+    margin-inline-start: 50px;
+  }
+
+  .SectionWrapper {
+    padding-left: 105px;
+    padding-right: 105px;
+  }
+  .SectionWrapperm {
+    margin-left: 105px !important;
+    margin-right: 105px !important;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 720px) {
+  .PageWrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .containerWrapper {
+    margin-inline-start: 10px;
+  }
+
+  .SectionWrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .SectionWrapperm {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .PageWrapper {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .containerWrapper {
+    margin-inline-start: 7px;
+  }
+  .SectionWrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .SectionWrapperm {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+
+.row {
+  --bs-gutter-x: 0 !important
+}
+
+/* Custom styles for navigation buttons */
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '' !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 90px !important;
+  height: 80px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer !important;
+  margin-right: 10px !important;
+  z-index: 9 !important;
+  position: absolute !important;
+  top: unset !important;
+  bottom: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  z-index: 9 !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.swiper-button-prev {
+  left: 0 !important;
+  background-image: url('./assets/images/left.svg');
+}
+
+.swiper-button-next {
+  left: 90px !important;
+  background-image: url('./assets/images/right.svg');
+
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #D9D9D9;
+  /* Customize the hover background color */
+  z-index: 9;
 }

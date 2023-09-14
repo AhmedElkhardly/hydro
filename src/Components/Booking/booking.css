@@ -1,0 +1,215 @@
+.bookingContainer {
+    margin-top: 139px !important;
+    background: #F5F5F5;
+}
+
+.bookingContainer .headertext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-inline-start: 120px;
+    padding-inline-end: 64px;
+    padding-bottom: 80px;
+    padding-top: 120px;
+}
+
+.bookingContainer .aboutCompanyTitle {
+
+    color: #CD9B4C;
+    font-family: PlusJakarta-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 3.4px;
+    text-transform: uppercase;
+    margin-bottom: 20px !important;
+    max-width: 100%;
+
+}
+
+.bookingContainer .aboutCompanyHeader {
+    color: #30373E;
+    font-family: PlusJakarta-Regular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    padding-inline-end: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 23px;
+    max-width: 368px;
+
+}
+
+.bookingContainer .aboutCompanyDescription {
+    color: #535353;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 415px;
+    letter-spacing: 0.8px;
+    padding-bottom: 0;
+}
+
+.bookingContainer .headertext {
+    /* padding-inline-start: 90px !important; */
+}
+
+.bookingContainer .respImage{
+    display: none;
+}
+@media screen and (max-width: 579px) {
+    .aboutCompanyHeader {
+        font-size: 28px !important;
+
+    }
+
+    .AboutCompanyContainer .headertext {
+        padding-inline-start: 40px !important;
+    }
+
+}
+
+.bookingContainer .mainImage {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.bookingContainer .maindescription {
+    color: #535353;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.bookingContainer hr {
+    border-top: 2px solid #C7A167;
+}
+
+@media screen and (min-width : 1440px) and (max-width:( 1660px)) {
+    .bookingContainer .header {
+        font-size: 48px;
+
+    }
+    .bookingContainer .headertext {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    
+        padding-inline-start: 100px;
+        padding-inline-end: 64px;
+        padding-bottom: 80px;
+        padding-top: 120px;
+    }
+    
+
+}
+
+@media screen and (max-width : 1440px) {
+    .bookingContainer .header {
+        font-size: 33px;
+
+    }
+
+    .bookingContainer .headertext {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 64px;
+        padding-inline-end: 64px;
+        padding-bottom: 70px;
+    }
+
+    .bookingContainer .aboutCompanyTitle {
+        line-height: 15px;
+        max-width: 100%;
+
+    }
+
+    .bookingContainer .aboutCompanyHeader {
+        font-size: 44px;
+        line-height: 55px;
+        max-width: 368px;
+        margin-bottom: 15px;
+
+    }
+
+    .bookingContainer .aboutCompanyDescription {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        padding-bottom: 15px;
+
+    }
+
+    .bookingContainer .learnMore {
+        scale: .8;
+    }
+
+
+}
+
+@media screen and (max-width : 990px) {
+    .bookingContainer .header {
+        font-size: 35px;
+
+    }
+    .bookingContainer .respImage{
+        display: block;
+    }
+    .bookingContainer .mainImage {
+        display: none;
+    }
+    .bookingContainer .headertext {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 64px;
+        padding-inline-end: 64px;
+        padding-bottom: 70px;
+    }
+
+    .bookingContainer .aboutCompanyTitle {
+        line-height: 15px;
+        max-width: 100%;
+
+    }
+
+    .bookingContainer .aboutCompanyHeader {
+        font-size: 44px;
+        line-height: 55px;
+        max-width: 100%;
+        margin-bottom: 15px;
+
+    }
+
+    .bookingContainer .aboutCompanyDescription {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        padding-bottom: 15px;
+        max-width: 100%;
+    }
+
+    .bookingContainer .learnMore {
+        scale: 1;
+    }
+
+
+}
+
+@media screen and (max-width : 579px) {
+    .bookingContainer .header {
+        font-size: 28px;
+
+    }
+}

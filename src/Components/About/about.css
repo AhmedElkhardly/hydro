@@ -1,0 +1,56 @@
+.AboutCompanyContainer {
+    margin-top: 139px !important;
+}
+
+.aboutCompanyTitle {
+
+    color: #CD9B4C;
+    font-family: PlusJakarta-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 3.4px;
+    text-transform: uppercase;
+
+}
+
+.aboutCompanyHeader {
+    color: #30373E;
+    font-family: PlusJakarta-Regular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    padding-inline-end: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 33px;
+}
+
+.aboutCompanyDescription {
+    color: #535353;
+    font-family: PlusJakarta-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;  
+    letter-spacing: 0.8px;
+
+}
+
+.AboutCompanyContainer .headertext{
+    padding-inline-start: 90px !important;
+}
+
+
+@media screen and (max-width: 579px) {
+    .aboutCompanyHeader{
+        font-size: 28px !important;
+
+    }
+    .AboutCompanyContainer .headertext{
+        padding-inline-start: 40px !important;
+    }
+    
+}

@@ -1,0 +1,86 @@
+.SpecificationSectionContainer {
+    margin-top: 139px !important;
+}
+
+.SpecificationSectionContainer .smallImg {
+    margin-bottom: 38px;
+    width: 90%;
+}
+
+.SpecificationSectionContainer .title {
+    color: #C7A167;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 3.4px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.SpecificationSectionContainer .header {
+    color: #30373E;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    /* 112.5% */
+    letter-spacing: -0.7px;
+    margin-bottom: 31px;
+    width: 90%;
+
+}
+
+.SpecificationSectionContainer .slug {
+    width: 91px;
+}
+
+.SpecificationSectionContainer .mainImage {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.SpecificationSectionContainer .maindescription {
+    color: #535353;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.SpecificationSectionContainer hr {
+    border-top: 2px solid #C7A167;
+}
+
+@media screen and (min-width : 1440px) {
+    .SpecificationSectionContainer .header {
+        font-size: 48px;
+
+    }
+
+}
+
+@media screen and (max-width : 1440px) {
+    .SpecificationSectionContainer .header {
+        font-size: 33px;
+
+    }
+
+}
+
+@media screen and (max-width : 990px) {
+    .SpecificationSectionContainer .header {
+        font-size: 35px;
+
+    }
+
+}
+
+@media screen and (max-width : 579px) {
+    .SpecificationSectionContainer .header {
+        font-size: 28px;
+
+    }
+}
