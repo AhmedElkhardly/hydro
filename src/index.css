@@ -83,51 +83,59 @@ code {
 .containerWrapper {
   margin-inline-start: 129px;
 }
+
 .SectionWrapper {
   padding-left: 315px;
   padding-right: 315px;
 }
+
 .SectionWrapperm {
   margin-left: 315px !important;
   margin-right: 315px !important;
 }
+
 @media screen and (min-width: 1540px) {
   .PageWrapper {
     padding-left: 129px;
     padding-right: 129px;
   }
-  
+
   .containerWrapper {
     margin-inline-start: 129px;
   }
+
   .SectionWrapper {
     padding-left: 315px;
     padding-right: 315px;
   }
+
   .SectionWrapperm {
     margin-left: 315px !important;
     margin-right: 315px !important;
   }
-  
+
 }
+
 @media screen and (max-width: 1540px) {
   .PageWrapper {
     padding-left: 90px;
     padding-right: 90px;
   }
-  
+
   .containerWrapper {
     margin-inline-start: 90px;
   }
+
   .SectionWrapper {
     padding-left: 150px;
     padding-right: 150px;
   }
+
   .SectionWrapperm {
     margin-left: 150px !important;
     margin-right: 150px !important;
   }
-  
+
 }
 
 @media screen and (min-width: 960px) and (max-width: 1140px) {
@@ -135,15 +143,16 @@ code {
     padding-left: 80px;
     padding-right: 80px;
   }
-  
+
   .containerWrapper {
     margin-inline-start: 80px;
   }
-  
+
   .SectionWrapper {
     padding-left: 100px;
     padding-right: 100px;
   }
+
   .SectionWrapperm {
     margin-left: 100px !important;
     margin-right: 100px !important;
@@ -164,6 +173,7 @@ code {
     padding-left: 105px;
     padding-right: 105px;
   }
+
   .SectionWrapperm {
     margin-left: 105px !important;
     margin-right: 105px !important;
@@ -184,6 +194,7 @@ code {
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .SectionWrapperm {
     margin-left: 15px !important;
     margin-right: 15px !important;
@@ -199,6 +210,7 @@ code {
   .containerWrapper {
     margin-inline-start: 7px;
   }
+
   .SectionWrapper {
     padding-left: 10px;
     padding-right: 10px;
@@ -260,3 +272,36 @@ code {
   /* Customize the hover background color */
   z-index: 9;
 }
+
+.ArabicWrapper {
+  direction: rtl;
+}
+
+/**change rating style**/
+.MuiSvgIcon-root {
+  display: none !important;
+}
+
+.MuiRating-root .MuiRating-iconFilled::after,
+.MuiRating-root .MuiRating-icon::after {
+  content: '';
+  width: 1.7rem;
+  height: 1.3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-inline-end: 0.313rem;
+  background-size: contain;
+}
+
+.MuiRating-root .MuiRating-iconFilled::after {
+  background-image: url('./assets/images/filledStar.svg');
+}
+
+.MuiRating-root .MuiRating-iconEmpty::after {
+  background-image: url('./assets/images/emptyStar.svg');
+}
+@media screen and (max-width: 990px) {
+  
+  .bg-petro{
+    background-color: #30373E;}
+  }

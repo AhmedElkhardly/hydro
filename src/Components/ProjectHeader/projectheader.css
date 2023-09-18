@@ -1,0 +1,39 @@
+.SpecTextContianer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #30373E;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.SpecTextContianer h2 {
+    color: #FFF !important;
+    font-family: PlusJakarta-Bold;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 187.5% */
+    letter-spacing: 0.64px;
+}
+
+.SpecTextContianer .description {
+    color: #848484;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 175% */
+    letter-spacing: 0.4px;
+}
+
+.riviewcount {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}

@@ -1,8 +1,36 @@
 .ProjSecContainer{
     margin-top: 190px !important;
+    height: calc(100% + 250px)
 }
 
 .ProjSecContainer .headerText {
     margin-bottom: 68px;
 }
 
+.viewdesignBtn{
+    color: #30373E;
+text-align: center;
+font-family: PlusJakarta-Regular;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 200% */
+letter-spacing: 1.4px;
+text-transform: uppercase;
+margin-bottom: 67px;
+margin-left: 150px;
+}
+
+.projImgContainer{
+    height: 850px;
+    z-index: 9;
+}
+
+.bgsGray3 {
+    position: absolute;
+    z-index: 90;
+    right: 0;
+    width: 100%;
+    background: rgb(245, 245, 245);
+    margin-top: 0;
+}

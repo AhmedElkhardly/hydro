@@ -1,0 +1,115 @@
+.cardbody {
+    color: #30373E;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.28px;
+}
+
+.cardiconWrapper {
+    margin: 14px;
+}
+
+.cardicon {
+    margin: 11px;
+}
+
+.colorname {
+    color: #5E5E5E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.ball1,
+.ball2,
+.ball3,
+.ball4,
+.ball5,
+.ball6 {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.ball1 {
+    background-color: #D9D9D9;
+}
+
+.ball2 {
+    background-color: #7393B3;
+}
+
+.ball3 {
+    background-color: #BEB4AC;
+}
+
+.ball4 {
+    background-color: #30373E;
+}
+
+.ball5 {
+    background-color: #B4DFD0;
+}
+
+.ball6 {
+    background-color: #F8C4C4;
+}
+
+.callussect {
+    border-radius: 8px;
+    background: #FFFCF6;
+}
+.callussect span{
+    color: #30373E;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 218.75% */
+letter-spacing: 0.64px;
+margin: 20px 20px 20px 20px ;
+}
+.callussect span .number{
+    color: #D48A1B;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0.36px;
+}
+@media screen and (max-width: 1400px) {
+    .cardbody {
+        font-size: 12px;
+    }
+
+    .colorname {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .cardbody {
+        font-size: 14px;
+    }
+
+    .ball1,
+    .ball2,
+    .ball3,
+    .ball4,
+    .ball5,
+    .ball6 {
+        width: 64px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        margin: 15px 0
+    }
+
+
+}

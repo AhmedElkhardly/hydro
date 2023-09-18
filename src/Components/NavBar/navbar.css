@@ -4,7 +4,11 @@
     display: grid;
 
 }
+.curs {
+    cursor: pointer;
+    font-family: Mulish-Bold;
 
+}
 
 .navlinks {
     color: #FFF;
@@ -88,6 +92,16 @@
     }
 
 }
+@media (max-width: 1400px) {
+    .navlinks a{
+        padding: 0.44px;
+
+    }
+    .navlinks a:last-child {
+        margin-inline-end: 0.44px;
+    }
+    
+}
 
 @media (max-width: 1200px) {
 
@@ -101,7 +115,7 @@
         margin-inline-end: 12.4px;
     }
     .navlinks a:last-child {
-        margin-inline-end: 73.44px;
+        margin-inline-end: 3.44px;
     }
 
 }

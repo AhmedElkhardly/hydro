@@ -1,0 +1,37 @@
+.productSpecf {
+    margin-top: 32px;
+}
+.price{
+    display: flex;
+    align-items: baseline;
+}
+.price h1 {
+    color: #D48A1B;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-inline-end: 10px;
+}
+
+.price .oldPrice{
+    color: #7E7E7E;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+text-decoration:line-through !important;
+margin-inline-end: 10px;
+}
+
+.price .offer{
+    color: #D48A1B;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+margin-inline-end: 10px;
+}

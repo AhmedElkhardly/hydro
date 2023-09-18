@@ -1,0 +1,85 @@
+.selected div,
+.slide div {
+    height: 100% !important;
+}
+
+.slide div img,
+.selected div img {
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.thumbs-wrapper,
+.axis-vertical {
+    width: 65%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: center;
+}
+
+.control-arrow,
+.control-prev {
+    border-radius: 50%;
+    background-color: gray !important;
+    padding: 10px;
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0 !important;
+
+}
+
+.control-prev::before {
+    border: none !important;
+}
+
+.control-prev {
+    background-image: url('./left.svg') !important;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.control-next::before {
+    border: none !important;
+}
+
+.control-next {
+    background-image: url('./right.svg') !important;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.carousel .control-next.control-arrow {
+    top: 20px;
+    right: 5% !important;
+}
+
+.carousel .control-prev.control-arrow {
+    top: 20px;
+    left: 5% !important;
+}
+
+.thumb {
+    width: 90px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+    border: 2px solid #D48A1B !important;
+}
+
+.thumb img {
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 8px;
+
+}
+
+.control-next:focus,
+.control-prev:focus {
+    background-color: #D48A1B !important;
+}
